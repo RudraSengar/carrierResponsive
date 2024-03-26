@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+	padding:0px;
+	font-family:emoji;
+	background-color:white;	
+	text-align: justify;
+}
+h1{
+	/* font-family: 'Tilt prism',sans-serif;
+	font-size: 2.5rem; */
+	font-weight: 600;
+}
+a{
+	text-decoration:none;
+}
+
+#logo{
+	height:20px;
+	padding:5px;
+	margin-left:5px;
+	
+}
+h1{
+	font-family: 'Tilt prism',sans-serif;
+	font-size: 2.5rem;
+	text-align:center;
+	color:indigo;
+}
+h2{
+	font-family: 'Roboto',sans-serif;
+	font-size: 2rem;
+	text-align:center;
+	color:indigo;
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+}
+#banner{
+	
+	object-fit:cover;
+}
+#about{
+	display:flex;
+	max-width:800px;
+	margin:  auto;
+	padding:5px;
+}
+.des{
+	width:50%;
+	padding:5px;
+	font-size: 1.15rem;
+	
+	}
+.work{
+	width:50%;
+	margin: 80px ;
+}
+#work-image{
+	border:1px solid gray;
+	border-radius:50%;
+
+}	
+#Jobs{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+#jobs-table{
+	width: 100%;
+	/* border:1px solid gray; */
+	border-collapse:collapse;
+	
+}
+#jobs-table-header th{
+	/* border-right:1px solid gray; */
+	/* border: 1px solid gray; */
+	/* border-bottom: 1px solid gray; */
+	padding: 5px;
+	background-color:#F4E9F3;
+	text-align: center;
+	
+}
+.jobs-table-row td{
+	/* border: 1px solid gray; */
+	/* border-left: 1px solid gray; */
+	border-top:1px solid gray;
+	padding: 5px;
+	
+}
+#jobs-table tr:nth-child(odd){
+	background-color:floralwhite;
+}
+/* tr:nth-child(even){
+	background-color: aqua;
+} */
+
+#application{
+	max-width:800px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#application div{
+	margin: 15px;
+}
+#form label{
+	/* font-size: medium; */
+	font-weight: 600;
+	color: black;
+}
+#form input, select, textarea,button{
+	padding:6px;
+	font-size: 1rem;
+	border: 1.5px solid gray;
+	border-radius:7px;
+}
+textarea{
+	width: 80%;
+}
+input[type="Submit"]{
+	background-color:hsl(198, 84%, 48%);
+	color: white;
+	cursor: pointer;
+}
+/*footer Part */
+#footer{
+	padding:10px;
+	margin:30px;
+	background-color:ghostwhite;
+}
+#copyright{
+	text-align:center;
+	color:gray;
+	font-size:0.875rem
+}
+#cpt{
+	text-align:center;
+}
+#cpt li{
+	display:inline;
+	list-style-type:none;
+	margin:0px 20px;
+	padding:2px;
+	
+}
